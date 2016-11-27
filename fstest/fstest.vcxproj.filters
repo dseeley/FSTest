@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a91e2623-8432-4d8c-95d7-e7936c0795cd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b542bdb9-0b7c-4303-b1f3-34f14898dfd8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e8558256-bab5-4ba7-bcad-75c39ee6ef01}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlockTab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fstest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomTab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="resize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fstest.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fstest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bw\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_17.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_18.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_19.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_20.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_a.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_a.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_c.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_c.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_d.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_d.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_e.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_e.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_g.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_g.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_h.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_h.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_j.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_j.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_l.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_l.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_n.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_n.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_o.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_o.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_p.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_p.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\4_q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\col\4_q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\a.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\b.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\blank.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\c.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\d.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\e.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\f.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fstest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\g.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\h.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\j.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\k.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\l.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\m.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\n.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\o.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\p.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bw\q.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

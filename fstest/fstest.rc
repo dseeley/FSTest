@@ -1,0 +1,346 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_MAIN DIALOGEX 200, 150, 301, 390
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "4-Way formation tester"
+MENU IDR_FILEMENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tab1",IDC_TABCTRL,"SysTabControl32",TCS_MULTILINE,6,6,288,378
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 231, 57
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    LTEXT           " Version x.x  dd/mm/yyyy",IDC_VER,68,14,93,11,SS_CENTERIMAGE
+    LTEXT           "Copyright (C) 2004-2008 Dougal Seeley",IDC_STATIC,41,30,128,10,SS_CENTERIMAGE
+    LTEXT           "FSTest",IDC_STATIC,41,14,24,11,SS_CENTERIMAGE
+    ICON            IDI_FSTEST,IDC_STATIC,14,14,20,20
+    PUSHBUTTON      "OK",IDOK,177,14,37,14
+END
+
+IDD_SELECTFORMATIONS DIALOGEX 0, 0, 186, 162
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION
+CAPTION "Select formations from pool"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,126,6,50,14
+    LISTBOX         IDC_SELECTFORMATIONS_NAME,6,6,108,140,NOT LBS_NOTIFY | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,126,24,50,14
+    PUSHBUTTON      "'AA' Class",IDC_SELECTAAFORMATIONS,124,90,55,16,BS_CENTER | BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "'AAA' Class",IDC_SELECTAAAFORMATIONS,124,114,55,16,BS_CENTER | BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "'A' Class",IDC_SELECTAFORMATIONS,124,64,55,16,BS_CENTER | BS_VCENTER | BS_MULTILINE
+END
+
+DLG_TABRANDOMS DIALOGEX 200, 150, 279, 176
+STYLE DS_SETFONT | DS_CENTER | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         139,IDC_FS_PICTURE,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,6,18,107,107
+    LTEXT           "Identify the following formation:",IDC_STATIC,6,6,91,8
+    LISTBOX         IDC_FS_ANS_NAME,132,18,90,138,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_FS_ANS_LETTER,240,18,30,138,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Letter:",IDC_STATIC,240,6,19,8
+    LTEXT           "Name:",IDC_STATIC,132,6,21,8
+    EDITTEXT        IDC_FS_RESULT_LETTER,241,156,31,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FS_RESULT_NAME,132,156,31,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Give up!",IDC_GIVEUP,72,132,30,14
+    LTEXT           "X",IDC_STATIC,227,83,8,8
+    DEFPUSHBUTTON   "Next",IDOK,6,132,30,14
+END
+
+DLG_TABBLOCKS DIALOGEX 200, 150, 279, 357
+STYLE DS_SETFONT | DS_CENTER | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Next",IDOK,5,337,30,14
+    LTEXT           "Identify the following blocks:",IDC_STATIC,6,6,83,8
+    LISTBOX         IDC_TABBLOCKS_BLOCK_ANS1,132,18,90,132,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Number",IDC_STATIC,240,90,25,8
+    LTEXT           "Name:",IDC_STATIC,132,6,21,8
+    EDITTEXT        IDC_TABBLOCKS_NUMBER_RESULT,240,246,31,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Give up!",IDC_GIVEUP,82,337,30,14
+    LTEXT           "X",IDC_STATIC,228,168,8,8
+    LISTBOX         IDC_TABBLOCKS_BLOCK_ANS2,132,198,90,132,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_TABBLOCKS_NUMBER_ANS,240,102,30,144,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_TABBLOCKS_BLOCK_RESULT1,132,150,31,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TABBLOCKS_BLOCK_RESULT2,132,330,31,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         139,IDC_TABBLOCKS_BLOCKPICTURE,"Static",SS_BITMAP | SS_CENTERIMAGE | WS_BORDER,6,18,107,314
+    LTEXT           "Name:",IDC_STATIC,132,186,21,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_FSTEST              ICON                    "res\\fstest.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    DLG_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 383
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_SELECTFORMATIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    DLG_TABRANDOMS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 169
+    END
+
+    DLG_TABBLOCKS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 344
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_FILEMENU MENUEX 
+BEGIN
+    POPUP "&File",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "E&xit",                       32771,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Options",                       65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Select &formations",          ID_OPTIONS_SELECTFORMATIONS,MFT_STRING,MFS_ENABLED
+        MENUITEM "&Sync letter with name",      ID_OPTIONS_SYNCLETTER,MFT_STRING,MFS_ENABLED
+        MENUITEM "&Cheat mode",                 ID_OPTIONS_CHEATMODE,MFT_STRING,MFS_ENABLED
+        MENUITEM "Colour &Pictures",            ID_OPTIONS_COLOURPICS,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Help",                          65535,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "&Contents",                   32774,MFT_STRING,MFS_GRAYED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&About",                      32772,MFT_STRING,MFS_ENABLED
+    END
+END
+
+IDR_CONTEXTMENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Show Formation",              ID_SHOWFORMATION
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BLANK               BITMAP                  "res\\blank.bmp"
+IDB_BW_1                BITMAP                  "res\\2016\\4_1.bmp"
+IDB_BW_2                BITMAP                  "res\\2016\\4_2.bmp"
+IDB_BW_3                BITMAP                  "res\\2016\\4_3.bmp"
+IDB_BW_4                BITMAP                  "res\\2016\\4_4.bmp"
+IDB_BW_5                BITMAP                  "res\\2016\\4_5.bmp"
+IDB_BW_6                BITMAP                  "res\\2016\\4_6.bmp"
+IDB_BW_7                BITMAP                  "res\\2016\\4_7.bmp"
+IDB_BW_8                BITMAP                  "res\\2016\\4_8.bmp"
+IDB_BW_9                BITMAP                  "res\\2016\\4_9.bmp"
+IDB_BW_10               BITMAP                  "res\\2016\\4_10.bmp"
+IDB_BW_11               BITMAP                  "res\\2016\\4_11.bmp"
+IDB_BW_12               BITMAP                  "res\\2016\\4_12.bmp"
+IDB_BW_13               BITMAP                  "res\\2016\\4_13.bmp"
+IDB_BW_14               BITMAP                  "res\\2016\\4_14.bmp"
+IDB_BW_15               BITMAP                  "res\\2016\\4_15.bmp"
+IDB_BW_16               BITMAP                  "res\\2016\\4_16.bmp"
+IDB_BW_17               BITMAP                  "res\\2016\\4_17.bmp"
+IDB_BW_18               BITMAP                  "res\\2016\\4_18.bmp"
+IDB_BW_19               BITMAP                  "res\\2016\\4_19.bmp"
+IDB_BW_20               BITMAP                  "res\\2016\\4_20.bmp"
+IDB_BW_21               BITMAP                  "res\\2016\\4_21.bmp"
+IDB_BW_22               BITMAP                  "res\\2016\\4_22.bmp"
+IDB_BW_A                BITMAP                  "res\\2016\\4_a.bmp"
+IDB_BW_B                BITMAP                  "res\\2016\\4_b.bmp"
+IDB_BW_C                BITMAP                  "res\\2016\\4_c.bmp"
+IDB_BW_D                BITMAP                  "res\\2016\\4_d.bmp"
+IDB_BW_E                BITMAP                  "res\\2016\\4_e.bmp"
+IDB_BW_F                BITMAP                  "res\\2016\\4_f.bmp"
+IDB_BW_G                BITMAP                  "res\\2016\\4_g.bmp"
+IDB_BW_H                BITMAP                  "res\\2016\\4_h.bmp"
+IDB_BW_J                BITMAP                  "res\\2016\\4_j.bmp"
+IDB_BW_K                BITMAP                  "res\\2016\\4_k.bmp"
+IDB_BW_L                BITMAP                  "res\\2016\\4_l.bmp"
+IDB_BW_M                BITMAP                  "res\\2016\\4_m.bmp"
+IDB_BW_N                BITMAP                  "res\\2016\\4_n.bmp"
+IDB_BW_O                BITMAP                  "res\\2016\\4_o.bmp"
+IDB_BW_P                BITMAP                  "res\\2016\\4_p.bmp"
+IDB_BW_Q                BITMAP                  "res\\2016\\4_q.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,5,0,0
+ PRODUCTVERSION 3,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080904b0"
+        BEGIN
+            VALUE "CompanyName", "Dougal Seeley"
+            VALUE "FileDescription", "4-Way Formation Skydive Tester"
+            VALUE "FileVersion", "3, 5, 0, 0"
+            VALUE "InternalName", "FSTest"
+            VALUE "LegalCopyright", "Copyright © 2008 Dougal Seeley"
+            VALUE "OriginalFilename", "fstest.exe"
+            VALUE "ProductName", "fstest"
+            VALUE "ProductVersion", "3, 5, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1200
+    END
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
